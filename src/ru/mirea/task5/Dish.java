@@ -51,7 +51,13 @@ abstract class Dish {
         Dish h1 = new Cup("red", "cup", false, true);
         System.out.println(h1.toString());
 
-        Dish h2 = new Cup("black", "cup", true, false);
+        Dish h2 = new Pot("white", "pot", true, false);
         System.out.println(h2.toString());
+
+        Dish h3 = new Cup("blue", "cup", true, false);
+        System.out.println(h3.toString());
+
+        Dish h4 = new Pot("black", "pot", true, true);
+        System.out.println(h4.toString());
     }
 }
