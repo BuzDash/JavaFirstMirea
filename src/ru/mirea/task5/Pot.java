@@ -1,5 +1,4 @@
 package ru.mirea.task5;
-
 import java.util.Objects;
 
 public class Pot extends Dish {

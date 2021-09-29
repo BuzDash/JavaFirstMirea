@@ -1,10 +1,5 @@
 package ru.mirea.task5;
-import ru.mirea.task3.Hand;
-import ru.mirea.task3.Head;
-import ru.mirea.task3.Human;
-import ru.mirea.task3.Leg;
-
-import java.util.Scanner;
+import java.util.Objects;
 
 abstract class Dish {
     protected String color;
